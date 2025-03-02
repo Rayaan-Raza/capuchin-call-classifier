@@ -40,13 +40,6 @@ numpy
 seaborn
 scikit-learn
 
-### Installation
-git clone https://github.com/yourusername/capuchin-bird-detection.git
-cd capuchin-bird-detection
-pip install -r requirements.txt
-Running Detection on Forest Recordings
-pythonCopyimport tensorflow as tf
-from detection import load_mp3_16k_mono, preprocess_mp3
 
 # Load the trained model
 model = tf.keras.models.load_model('capuchin_model.h5')
